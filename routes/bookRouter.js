@@ -3,6 +3,7 @@ const bookRouter = express.Router()
 const Book = require('../models/book.js')
 
 // Get All
+
 bookRouter.get('/', (req, res, next) => {
   Book.find((err, books) => {
     if(err){

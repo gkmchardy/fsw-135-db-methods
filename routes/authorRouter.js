@@ -3,6 +3,7 @@ const authorRouter = express.Router()
 const Author = require('../models/author.js')
 
 // Get All
+
 authorRouter.get('/', (req, res, next) => {
   author.find((err, authors) => {
     if(err){
