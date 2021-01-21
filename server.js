@@ -3,7 +3,8 @@ const app = express()
 const morgan = require('morgan')
 const mongoose = require('mongoose')
 
-
+// I had to add this to create a pull request
+console.log("hello world")
 // Middleware (for every request) //
 app.use(express.json()) 
 app.use(morgan('dev')) 
