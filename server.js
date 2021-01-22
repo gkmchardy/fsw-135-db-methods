@@ -5,6 +5,7 @@ const mongoose = require('mongoose')
 
 // I had to add this to create a pull request
 console.log("hello world")
+console.log("hello again")
 // Middleware (for every request) //
 app.use(express.json()) 
 app.use(morgan('dev')) 
